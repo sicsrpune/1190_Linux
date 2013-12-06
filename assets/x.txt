@@ -1,0 +1,120 @@
+<adduser> Add a new user # adduser manish,niru##
+<arch> Print machine architecture# arch##
+<awk> Find and Replace text within file(s)# awk '{print;}' employee.txt  //or//  awk '{print $1}' input_file   ##	
+<bc> An arbitrary precision calculator language# echo "3*8" | bc##	
+<cal> Display a calendar#  cal 09 2013##	
+<cat> Concatenate files and print on the standard output# cat file.txt##
+<cd> Change the Directory # cd /home/niru/bin ##
+<chdir> Change working directory# chdir /home/rich/www##	
+<chgrp> Change the group ownership of files# chgrp hope file.txt##	
+<chkconfig> Tool for maintaining the /etc/rc[0-6].d directory hierarchy# chkconfig --list##
+<chmod> Change the access permissions of files and directories#	chmod 777 file.txt##
+<chown> Change the user and group ownership of files# chown username:usergroup somefile##	
+<chroot> Change root directory#	chroot /home/john##
+<cksum>	Print CRC checksum and byte counts# cksum sample.txt##	
+<clear> Clear terminal screen# clear##
+<cmp> Compare two files# cmp file1.txt file2.txt##	
+<comm> Compare two sorted files line by line# comm name_list.txt name_list_new.txt##	
+<cp> Copy one or more files to another location# cp file2 file3 file4 dir1##		
+<crontab> Schedule a command to run at a later time# crontab -u oracle -l##
+<csplit> Split a file into context-determined pieces# split mylog##	
+<cut>	Divide a file into several parts# cut -c 1-8 names.txt##	
+<date> Display or change the date & time# date##	
+<dc> Desk Calculator# echo "4 5 * p" |dc##	 
+<dd> Data Dump - Convert and copy a file# dd if=/dev/sda of=/dev/sdb##	
+<df> Display free disk space# df -a##
+<diff> Display the differences between two files# diff empfile1.txt empfile2.txt## 
+<dir> Briefly list directory contents# dir /a##	
+<dirname> Convert a full pathname to just a path# dirname /usr/local/bin/add.sh##
+<du> Estimate file space usage#	du /tmp##
+<echo> Display message on screen# echo 'Welcome'##	
+<ed> A line-oriented text editor (edlin)# edit myfile.txt## 	
+<egrep> Search file(s) for lines that match an extended expression#  egrep [6-9] employee.txt##	
+<eject> Eject CD-ROM# eject /dev/cdrom##	
+<env>	Display, set, or remove environment variables# env##
+<expand> Convert tabs to spaces# expand myfile.txt##	
+<expr> Evaluate expressions# expr $var1 = $var2##	
+<fdformat>	Low-level format a floppy disk#	fdformat -h##
+<fdisk> Partition table manipulator for Linux# fdisk -l##
+<fgrep> Search file(s) for lines that match a fixed string#	fgrep "support" myfile.txt##
+<find> Search for files that meet a desired criteria# find . -name 'my*'##
+<fmt>	Reformat paragraph text# fmt myfile.txt##	
+<fold> Wrap text to fit a specified width# fold -5 myfile.txt > newfile.txt##
+<format> Format disks or tapes# format d: /fs:NTFS /v:Media##
+<free> Display memory usage# free -b##	
+<fsck> Filesystem consistency check and repair#	fsck -A##
+<grep> Search file(s) for lines that match a given pattern# grep boo /etc/passwd## 	
+<groups> Print group names a user is in# group username##
+<gzip> Compress or decompress named file(s)# gzip archivefile1.txt##
+<head> Output the first part of file(s)#  head example.txt## 		
+<hostname> Print or set system name# hostname##	
+<id> Print user and group id's#	id [options]##
+<info> Help info# info texinfo##	
+<install> Copy files and set attributes# install /usr/bin/fixit##	
+<join> Join lines on a common field# join employee.txt bonus.txt##
+<kill> Stop a process from running#	kill PID##
+<less> Display output one screen at a time#	less file.txt##
+<ln> Make links between files#	ln public_html/myfile.txt##
+<locate> Find files# locate file1 dir1##	
+<logname> Print current login name#	logname##
+<lpr>	Off line print#	lpr myfile.txt## 
+<lprm> Remove jobs from the print queue# lprm -P killtree 385##	
+<ls>	List information about file(s)#	ls##
+<man>	Help manual# man mkdir##	
+<mkdir> Create new folder(s)# mkdir mydir##	
+<mkfifo> Make FIFOs (named pipes)# mkfifo  -m 644 /tmp/myfifo##	
+<more> Display output one screen at a time#	more +3 myfile.txt##
+<mount> Mount a file system# mount /dev/usr /usr##	
+<mv>	Move or rename files or directories# mv sample.txt sample1.txt##	
+<nice> Set the priority of a command or job# nice +13 pico myfile.txt##		
+<nohup> Run a command immune to hang-ups# nohup abcd &##	
+<passwd> Modify a user password# passwd guest##	
+<paste>	Merge lines of files# paste file1##
+<pathchk> Check file name portability# pathchk file2.txt##	
+<printenv> Print environment variables#	printenv HOME##
+<printf> Format and print data#	printf "hello"##
+<ps> Process status# ps -ef##	
+<pwd> Print Working Directory# pwd##	
+<quotacheck> Scan a file system for disk usage#	# quotacheck -cugm /home##
+<rcp> Copy files between two machines# rcp tmp/file myhost:/tmp/file##
+<rm> Remove files# rm myfile.txt##	
+<rmdir>	Remove folder(s)# rmdir mydir##	
+<rpm> Remote Package Manager# rpm -qa##	
+<screen> Terminal window manager# screen -ls##	
+<sdiff> Merge two files interactively# sdiff myfile.txt myfile2.txt##	
+<sed> Stream Editor# sed 's/unix/linux/' file.txt##	 	
+<shutdown> Shutdown or restart linux# shutdown -h now##	
+<sleep> Delay for a specified time#	sleep 2m##
+<sort> Sort text files#	sort names.txt##
+<split>	Split a file into fixed-size pieces# split mylog##	
+<su> Substitute user identity# su guest##
+<cksum>  calculates and writes to standard output # cksum file -## 		
+<tac> Concatenate and write files in reverse# tac file1.txt > file2.txt##	
+<tail> Output the last part of files# tail myfile.txt##	
+<tar> Tape Archiver# tar -cvwf file.tar myfile.txt##
+<tee> Redirect output to multiple files# ls | tee file##	
+<test> Evaluate a conditional expression# test -s fakefile##		
+<touch> Change file timestamps# touch tgs.txt##
+<top> List processes running on the system# top##
+<traceroute> Trace Route to Host# traceroute google.com##	
+<tr> Translate, squeeze, and/or delete characters# tr [:lower:] [:upper:]##	
+<tsort>	Topological sort# tsort input.txt##
+<tty> Print filename of terminal on stdin# tty##
+<umount> Unmount a device# umount /mnt##	
+<uname>	Print system information# uname -arv##	
+<unexpand> Convert spaces to tabs# unexpand -a myfile.txt##
+<uniq> Uniquify files# uniq test##	
+<unshar> Unpack shell archive scripts# echo "unshare tests"##	
+<useradd> Create new user account# useradd newperson##
+<usermod> Modify user account# usermod -d /home/newperson newperson##
+<users> List users currently logged in#	users filename.txt##
+<uuencode> Encode a binary file# uuencode unix unix | mail shamir@mysys##
+<vdir>Verbosely list directory contents (`ls -l -b')# vdir##
+<watch> Execute/display a program periodically#	watch ls##
+<wc> Print byte, word, and line counts#	wc myfile.txt##
+<whereis> Report all known instances of a command# whereis ls##
+<which> Locate a program file in the user's path# which -a  echo##
+<who> Print all usernames currently logged in# who -r##
+<whoami> Print the current user id and name (`id -un')# whoami##
+<xargs>	Execute utility, passing constructed argument list(s)# ls -1 | xargs##
+<yes> Print a string until interrupted#	yes "hscripts"##

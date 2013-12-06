@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.linux"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.linux.Splash"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.linux.Home"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_home"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.linux.ListActivity"
+            android:label="@string/title_activity_list" >
+        </activity>
+        <activity
+            android:name="com.linux.Description"
+            android:label="@string/title_activity_description" >
+        </activity>
+        <activity
+            android:name="com.linux.Search"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.linux.Internet"
+            android:label="@string/title_activity_internet" >
+        </activity>
+        <activity
+            android:name="com.linux.Quize"
+            android:label="@string/title_activity_quize" >
+        </activity>
+        <activity
+            android:name="com.linux.Shell"
+            android:label="@string/title_activity_shell" >
+        </activity>
+        <activity
+            android:name="com.linux.Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+    </application>
+
+</manifest>

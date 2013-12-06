@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Linux</string>
+    <string name="dummy_button">Exit</string>
+    <string name="dummy_content">LINUX</string>
+    <string name="title_activity_home">Home</string>
+    <string name="alc">All Linux Command</string>
+    <string name="search">Search By  (Keyword/Alphabet)</string>
+    <string name="tat">Take A Test</string>
+    <string name="tryout">Try Out Command</string>
+    <string name="setting">Setting</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="inter">Search On Net</string>
+    <string name="title_activity_mod1_alc">Mod1_alc</string>
+    <string name="m1title">All Linux Commands</string>
+    <string name="alcsrc">Search Here by double click</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="back">Back</string>
+    <string name="title_activity_description">Description</string>
+    <string name="de">Description :</string>
+    <string name="comman">Command :</string>
+    <string name="tryt">Try</string>
+    <string name="examp">Example :</string>
+    <string name="title_activity_search">Search</string>
+    <string name="sr">Search By  :-</string>
+    <string name="key">Keyword</string>
+    <string name="alphabet">Alphabetes</string>
+    <string name="m2search">Enter search value</string>
+    <string name="title_activity_internet">Internet</string>
+    <string name="title_activity_quize">Quize</string>
+    <string name="title_activity_shell">Shell</string>
+    <string name="execute">Execute</string>
+    <string name="rcom">Enter Command</string>
+    <string name="note">Note! : may be all linux commands are not runnable due to device dependency. </string>
+    <string name="cls">Clear</string>
+    <string name="consolenote">To See Output Result Here, Click top right execute Button  :</string>
+    <string name="webview">Web Address</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="mark">Hold search button for automatic web address translation </string>
+     <string name="next">Next</string>
+     <string name="start">Start</string>
+     <string name="qtite">Test Yourself :</string>
+      <string name="abt">henifhweni weihniwehvnij viesnvij viesvb eisvu bisued vbisouv bis vbisovbisbv siv bsevi bv iusevb is vbisv bsivub  sivhb sivbs ivb vdhbv dl vbksdhv bsduiv bsdihvb sdvh sbevubev isehbv isebv ksuhevb shuvbk hbvdlij espi piew okn peihurouygiuh iphe ojn ewifj iwef owheb iwefb iewf behwfb ieh bfeh bwuehfb weih bfuhew v</string>
+</resources>

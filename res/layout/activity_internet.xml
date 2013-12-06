@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Internet" >
+
+    <LinearLayout
+        android:id="@+id/m3linl1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/m3lin3"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/m3editText1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/webview"
+                android:focusableInTouchMode="false"
+                android:layout_weight="0.9" >
+                <requestFocus />
+            
+
+        </EditText>
+
+            <ImageButton
+                android:id="@+id/m3imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:contentDescription="@string/webview"
+                android:src="@android:drawable/ic_search_category_default" />
+
+	</LinearLayout>
+
+        <WebView
+            android:id="@+id/m3webView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/m3lin3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+
+         <TextView
+             android:id="@+id/m3t1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:maxLines="1"
+             android:text="@string/mark"/>
+        
+    </LinearLayout>
+
+</RelativeLayout>
